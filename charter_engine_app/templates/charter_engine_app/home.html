@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Home</title>
+    {% load static %}
+    <link href="{% static 'css/dist/styles.css' %}" rel="stylesheet" />
+    <script src="//unpkg.com/alpinejs" defer></script>
+  </head>
+
+  <body>
+    {% include "charter_engine_app/header.html" %}
+    <div class="w-full overflow-hidden">
+      <img src="{% static 'charter_engine_app/images/banner2.jpg' %}" alt="Sailboat" class="w-full object-cover" style="height: 20rem;">
+    </div>
+    <div class="flex flex-row">
+      <div class="flex h-32 basis-1/4 items-center justify-center bg-gray-500 shadow-lg"></div>
+      <div class="flex h-32 basis-1/4 items-center justify-center bg-gray-500 shadow-lg"></div>
+      <div class="flex h-32 basis-1/2 items-center justify-center bg-gray-500 shadow-lg"></div>
+    </div>
+  </body>
+</html>

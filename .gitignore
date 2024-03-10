@@ -1,0 +1,62 @@
+# BYTE-COMPILED / OPTIMIZED / DLL FILES
+__pycache__/
+*.py[cod]
+*$py.class
+
+# DISTRIBUTION / PACKAGING
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# DJANGO STUFF
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# ENVIRONMENTS
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# NODE.JS
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# EDITORS AND IDEs
+.idea/
+*.iml
+.vscode/
+
+# OPERATING SYSTEM FILES
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PYENV
+.python-version
+
+# PIPENV
+.Pipfile.lock
