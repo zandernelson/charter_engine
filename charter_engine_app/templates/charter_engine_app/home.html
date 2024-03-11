@@ -9,45 +9,133 @@
 
   <body>
     {% include "charter_engine_app/header.html" %}
+
     <div class="relative w-full overflow-hidden">
-      <img src="{% static 'charter_engine_app/images/banner2.jpg' %}" alt="Sailboat" class="w-full object-cover" style="height: 20rem;">
-      <div class="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex justify-start items-center" style="height: 20rem;">
-          <p class="text-white text-4xl font-bold p-12">Book the sailing trip of your dreams</p>
+      <img src="{% static 'charter_engine_app/images/banner2.jpg' %}" alt="Sailboat" class="w-full object-cover" style="height: 20rem" />
+      <div class="absolute bottom-0 left-0 right-0 top-0 flex items-center justify-start bg-black bg-opacity-20" style="height: 20rem">
+        <div class="left-0 top-0 flex h-full w-full items-center justify-center text-center">
+          <!-- <p class="m-12 w-3/4 p-6 text-center text-4xl text-white">
+            PRIVATE SAILING CHARTERS, SUNSET CRUISES & SAILING LESSONS IN THE CHESAPEAKE BAY,
+            <a href="#" class="ml-4 text-4xl font-semibold leading-6 text-white underline">BOOK NOW!</a>
+          </p> -->
+        </div>
       </div>
-  </div>
-  <div class="bg-white">
-    <div class="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
-      <div class="mx-auto max-w-3xl text-center">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Protect your device</h2>
-        <p class="mt-4 text-gray-500">As a digital creative, your laptop or tablet is at the center of your work. Keep your device safe with a fabric sleeve that matches in quality and looks.</p>
-      </div>
-  
-      <div class="mt-16 space-y-16">
-        <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
-          <div class="mt-6 lg:col-span-5 lg:row-start-1 lg:mt-0 xl:col-span-4 lg:col-start-1">
-            <h3 class="text-lg font-medium text-gray-900">Minimal and thoughtful</h3>
-            <p class="mt-2 text-sm text-gray-500">Our laptop sleeve is compact and precisely fits 13&quot; devices. The zipper allows you to access the interior with ease, and the front pouch provides a convenient place for your charger cable.</p>
-          </div>
-          <div class="flex-auto lg:col-span-7 lg:row-start-1 xl:col-span-8 lg:col-start-6 xl:col-start-5">
-            <div class="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
-              <img src="https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-01.jpg" alt="White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull." class="object-cover object-center">
+    </div>
+
+    <div class="bg-white">
+      <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py- lg:max-w-7xl lg:px-8">
+        <div class="mx-auto max-w-3xl text-center">
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Discover the Beauty of the Chesapeake Bay</h2>
+          <p class="mt-4 text-gray-500">
+            Embark on an unforgettable journey aboard Whisper, a pristine 34 ft 2015 Jeanneau Sun Odyssey 349. Experience the pinnacle of luxury sailing and allow the serene waters of the Chesapeake
+            Bay to transport you to a world of relaxation and adventure.
+          </p>
+        </div>
+        <div class="mt-16 space-y-16">
+          <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
+            <div class="mt-6 lg:col-span-5 lg:col-start-1 lg:row-start-1 lg:mt-0 xl:col-span-4">
+              <h3 class="text-lg font-medium text-gray-900">Luxury and Comfort Aboard Whisper</h3>
+              <p class="mt-2 text-sm text-gray-500">
+                Whisper offers a blend of luxury and comfort, designed for both relaxation and adventure. Her spacious cockpit and cozy interior make every voyage on the Chesapeake Bay a memorable
+                experience. Whether seeking tranquility or adventure, Whisper is your ideal sanctuary on the water.
+              </p>
+            </div>
+            <div class="flex-auto lg:col-span-7 lg:col-start-6 lg:row-start-1 xl:col-span-8 xl:col-start-5">
+              <div class="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
+                <img src="{% static 'charter_engine_app/images/sailboat1.jpg' %}" alt="Picture of sailboat." class="object-cover object-center" />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
-          <div class="mt-6 lg:col-span-5 lg:row-start-1 lg:mt-0 xl:col-span-4 lg:col-start-8 xl:col-start-9">
-            <h3 class="text-lg font-medium text-gray-900">Refined details</h3>
-            <p class="mt-2 text-sm text-gray-500">We design every detail with the best materials and finishes. This laptop sleeve features durable canvas with double-stitched construction, a felt interior, and a high quality zipper that hold up to daily use.</p>
-          </div>
-          <div class="flex-auto lg:col-span-7 lg:row-start-1 xl:col-span-8 lg:col-start-1">
-            <div class="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
-              <img src="https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-02.jpg" alt="Detail of zipper pull with tan leather and silver rivet." class="object-cover object-center">
+          <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
+            <div class="mt-6 lg:col-span-5 lg:col-start-8 lg:row-start-1 lg:mt-0 xl:col-span-4 xl:col-start-9">
+              <h3 class="text-lg font-medium text-gray-900">Set Sail for Adventure</h3>
+              <p class="mt-2 text-sm text-gray-500">
+                Navigate the serene waters of the Chesapeake Bay with Whisper, where every cruise is an opportunity to create lasting memories. Whether you're exploring new coves or enjoying starlit
+                evenings, Whisper ensures a sailing experience that is both safe and exhilarating.
+              </p>
+            </div>
+            <div class="flex-auto lg:col-span-7 lg:col-start-1 lg:row-start-1 xl:col-span-8">
+              <div class="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
+                <img src="{% static 'charter_engine_app/images/sailboat2.jpg' %}" alt="Picture of sailboat." class="object-cover object-center" />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
+    <div class="bg-white">
+      <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+
+        <div class="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8">
+          <div class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white">
+            <div class="aspect-h-4 aspect-w-3 sm:aspect-none bg-gray-200 group-hover:opacity-75 sm:h-96">
+              <img
+                src="https://static.wixstatic.com/media/311c26_e2714850d3474b8e9360654b9d5c504a~mv2.jpg/v1/fill/w_350,h_235,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/311c26_e2714850d3474b8e9360654b9d5c504a~mv2.jpg"
+                class="h-full w-full object-cover object-center sm:h-full sm:w-full"
+              />
+            </div>
+            <div class="flex flex-1 flex-col space-y-2 p-4">
+              <h3 class="text-sm font-medium text-gray-900">
+                <a href="#">
+                  <span aria-hidden="true" class="absolute inset-0"></span>
+                  Private Daytime Charter
+                </a>
+              </h3>
+              <p class="text-sm text-gray-500">Private daytime sailing charter around the Chesapeake Bay.</p>
+              <div class="flex flex-1 flex-col justify-end">
+                <p class="text-sm italic text-gray-500">Up to 6 guests</p>
+                <p class="text-base font-medium text-gray-900">$495</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white">
+            <div class="aspect-h-4 aspect-w-3 sm:aspect-none bg-gray-200 group-hover:opacity-75 sm:h-96">
+              <img
+                src="https://static.wixstatic.com/media/311c26_ac9cdb013b9a418bb845c1aaa2e0ccd4~mv2.jpg/v1/fill/w_350,h_235,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/311c26_ac9cdb013b9a418bb845c1aaa2e0ccd4~mv2.jpg"
+                class="h-full w-full object-cover object-center sm:h-full sm:w-full"
+              />
+            </div>
+            <div class="flex flex-1 flex-col space-y-2 p-4">
+              <h3 class="text-sm font-medium text-gray-900">
+                <a href="#">
+                  <span aria-hidden="true" class="absolute inset-0"></span>
+                  Private Sunset Charter
+                </a>
+              </h3>
+              <p class="text-sm text-gray-500">Private sunset cruise around the Chesapeake Bay.</p>
+              <div class="flex flex-1 flex-col justify-end">
+                <p class="text-sm italic text-gray-500">Up to 6 guests</p>
+                <p class="text-base font-medium text-gray-900">$495</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white">
+            <div class="aspect-h-4 aspect-w-3 sm:aspect-none bg-gray-200 group-hover:opacity-75 sm:h-96">
+              <img
+                src="https://static.wixstatic.com/media/311c26_d06c5bc677bb4d83a999a93a9b623223~mv2.jpg/v1/fill/w_350,h_235,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/311c26_d06c5bc677bb4d83a999a93a9b623223~mv2.jpg"
+                class="h-full w-full object-cover object-center sm:h-full sm:w-full"
+              />
+            </div>
+            <div class="flex flex-1 flex-col space-y-2 p-4">
+              <h3 class="text-sm font-medium text-gray-900">
+                <a href="#">
+                  <span aria-hidden="true" class="absolute inset-0"></span>
+                  Private Sailing Lesson
+                </a>
+              </h3>
+              <p class="text-sm text-gray-500">Private sailing lesson covering keelboat and cruiser sailing basics plus digital instruction book.</p>
+              <div class="flex flex-1 flex-col justify-end">
+                <p class="text-sm italic text-gray-500">Up to 6 guests</p>
+                <p class="text-base font-medium text-gray-900">$495</p>
+              </div>
+            </div>
+          </div>
+          <!-- More products... -->
+        </div>
+      </div>
+    </div>
   </body>
 </html>
